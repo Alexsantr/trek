@@ -2,24 +2,26 @@ body{
 front-famly:Tahoma;
 margin: 0;
 
-
 }
 
 h1{
+    text-align: center;
 cursor: help;
-margin: 0;
+margin: 12px;
 text-transform: uppercase;
 padding-bottom: 5px  ;
-border-bottom: 3px solid brown;
+/* border-bottom: 3px solid rgb(116, 97, 97); */
 
 }
 form{
     margin: 0 auto;
-    background: rgba(138, 92, 175, 0.77);
+    /* background: rgba(255, 255, 255, 0.77); */
     width: 450px;
     height: 500px;
     padding: 20px;
-    box-shadow: 2px 2px 5 px rgba(156, 96, 233, 0.82)
+    box-shadow: 2px 2px 5 px rgba(36, 16, 16, 0.82);
+    color: aliceblue;
+ 
 
 }
 .croup{
@@ -35,34 +37,63 @@ text-transform: uppercase;
 
 }
 input{
-margin-top: 10px;
+margin-top: 15px;
 height: 40px;
 width: 400px;
 border-radius: 20px/20px;
 border: none;
 padding-left: 15px;
 font-size: 18px;
-box-shadow: 2px 2px 5 px rgba(156, 96, 233, 0.82)
+box-shadow: 2px 2px 5 px rgba(232, 232, 233, 0.82);
+background: rgba(245, 244, 244, 0.2);
+color: #ecf1f7;
 
 }
 input:focus{
-    border: 2px solid #385a7c;
+    border: 2px solid #ecf1f7;
     transform: translateX(10px);
     width: 385;
+    color: #ecf1f7;
 }
 button{
+
     cursor: pointer;
     padding: 10px 30px;
     height: 50px;
-    color: darkturquoise;
-    background: #385a7c;
+    color: rgb(230, 220, 220);
+    background: #5c5e6e;
     border: none;
     text-transform: uppercase;
     font-size: 15px;
-    box-shadow: 2px 2px 5 px rgba(156, 96, 233, 0.82)
+    box-shadow: 2px 2px 5 px rgba(164, 156, 175, 0.1);
+    border-radius: 20px/20px;
+    margin: 10px;
+    position: absolute;
+    position:relative; 
+    left:30%;
+  
+   
+ 
 }
 button:hover{
     opacity: .80;
     font-weight: bold;
     transform: scale(1.1);
+    
+}
+.paralaxs{
+    background: url(/img/space.jpg) center no-repeat ;
+    background-size: cover;
+ height: 100vh;
+}
+
+
+
+.adout{
+    background-color: #66676d ;
+    height: 100vh;
+    background-size: cover;
+   
+
+   
 }
