@@ -1,0 +1,27 @@
+  <div class="paralaxs">
+        <form>
+    
+    <h1>Регестрация</h1>
+    <div class="croup" >
+        <label for=''>Имя</label>
+        <input type="name">
+    </div>
+    <div class="croup" >
+            <label for=''>Пароль</label>
+            <input type="password">
+        </div>
+        <div class="croup" >
+                <label for=''>Email</label>
+                <input type="email">
+               
+            </div>
+            <centr> <button>Регестрация</button></centr>
+     
+        </div>
+    </form>
+    
+    <div  class="adout" class="text">
+gfdgfdg
+
+
+    </div>
