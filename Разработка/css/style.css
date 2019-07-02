@@ -6,8 +6,8 @@ body{
         height: 500px;
      
         color: aliceblue;
-        z-index: 2;
-        background: url(/img/space3.jpg) center no-repeat;
+      
+        background: url(/img/2.jpg) center no-repeat;
         background-size: cover;
        
         
@@ -28,6 +28,25 @@ body{
         border-radius: 30px/30px;
 
     }
+    .panel{
+        
+       
+
+float: left;
+       margin: auto;
+        width: 20%;
+        block-size: 20px;
+        padding: 30px;
+        box-shadow: 2px 2px 5 px rgba(232, 232, 233, 0.82);
+background: rgba(245, 244, 244, 0.2);
+border-radius: 20px/20px;
+float: left;
+width: 23.5%;
+margin-right: 2%;
+padding: 10px;
+border: 1px solid
+    }
+    
     
    .podval{
     height: 200px;
@@ -43,10 +62,10 @@ body{
        
    }
    a{text-decoration: none;
-    color: rgb(223, 224, 240);
+    color: rgb(255, 255, 255);
    }
    a:hover{
-    color: rgb(49, 52, 85);
+    color: rgb(247, 181, 181);
    }
 
    .onas1{
