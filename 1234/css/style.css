@@ -75,26 +75,27 @@ h1{margin: 0px;
   padding:20%;
    color: blanchedalmond;
    text-align: center;
-  
+   opacity: 0;
    z-index: 1;
-   transform: scale3d(1, 1, 2);
-   transition-duration: 1.5s;
+  
    
 }
-@media screen and (max-width: 600px){
+h1:hover{
+  
+  
+transition-duration: 5.5s;
+
+}
+@media screen and (max-width: 800px){
 h1{
   transform: none;
 }
 
 }
-/* h1:hover{
-    transform: rotatez(360deg);
-    
-  transition-duration: 2.5s;
-} */
+
 .about{
   background-color: black;
-  height: 400px;
+  height: 600px;
   font-size: 20px;
   letter-spacing:1px;
 
@@ -127,16 +128,24 @@ h1{
    
   }
 }
+.t{
+ opacity: 0;
+
+ transition-duration: 2s;
+}
 
 div.gallery {
   border: 0px solid rgb(37, 37, 37);
   box-shadow: 10px 10px 5px grey;
+  
+  
+ 
 }
 
 div.gallery:hover {
   border: 2px solid rgb(0, 0, 0,0.2);
-  transform: rotateY(360deg);
-  transition-duration: 4s;
+
+  
 }
 
 div.gallery img {
