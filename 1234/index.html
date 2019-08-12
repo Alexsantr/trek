@@ -8,14 +8,14 @@
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC&amp;display=swap" rel="stylesheet">
     <title>Travels</title>
 </head>
-<body >
-    <header class="hd">
+<body onmouseover="ul()"  >
+    <header class="hd"   id="ty" >
             <!-- <div class="header1">
               Just  
             </div> -->
-        <div class="hd_1">
+        <div class="hd_1" >
             <ul class="topnav">
-                    <li><a class="active" href="#home">Главное</a></li>
+                    <li onclick="wer()"><a class="active" href="#home">Главное</a></li>
                     <li><a href="#news">О нас</a></li>
                     <li><a href="#contact">Проекты</a></li>
                     <li><a href="#tyr">Туры</a></li>
@@ -25,7 +25,7 @@
     
     
 
-   <div class="glava" onmouseout ="myFunction()" onmouseover="viv()" > 
+   <div class="glava" onmouseout="myFunction()" onmouseover="viv()"  > 
 <h1  id="black">Путешествия — это самая захватывающая вещь в мире.</h1>
 </div>
 <div class="about">
@@ -46,7 +46,7 @@
         предлагать именно то, что нужно клиенту, и предвосхищать его желания
 </p>
 </div>
-<div onmouseover="showsl()"  id="tera"class="t">
+<div onmouseover="showsl()"  id="tera"class="t" >
   
 <div   class="responsive" >
   
@@ -87,8 +87,14 @@
       </div>
     
   </div>
-      <p id="p1">Hello World!</p>
-<p id="p2">Hello World!</p>
+
+<div class="nagrad"  id="qwe" onmouseover="det()">
+
+  <li><a href="#news">О нас</a></li>
+  <li><a href="#contact">Проекты</a></li>
+  <li><a href="#tyr">Туры</a></li>
+
+</div>
   <!-- Скрипты -->
       <script src="/js/jss.js"></script>
 </body>

@@ -2,6 +2,7 @@ body{
   font-family: 'Amatic SC', cursive;
   margin: 0;
   padding: 0;
+  
 }
 
 .header1{
@@ -15,10 +16,16 @@ body{
   text-align: center;
   font-size: 100px;
   
-}
-.hd{
   
 }
+.hd{ 
+  transition-duration: 1s;
+  transform:translateY(-100vh);
+ 
+  }
+  @media(max-width: 500px){
+   .hd{ transform:translateY(-100vh)}
+  }
 ul.topnav {
   position: fixed;
   width: 100%;
@@ -32,7 +39,8 @@ ul.topnav {
   font-size: 25px;
 }
 
-ul.topnav li {float: left;}
+ul.topnav li {float: left;
+  }
 
 ul.topnav li a {
   display: block;
@@ -40,6 +48,7 @@ ul.topnav li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  
 }
 
 ul.topnav li a:hover:not(.active) {background-color: rgb(82, 75, 75);}
@@ -83,7 +92,7 @@ h1{margin: 0px;
 h1:hover{
   
   
-transition-duration: 5.5s;
+  transition-duration: 1s;
 
 }
 @media screen and (max-width: 800px){
@@ -131,7 +140,8 @@ h1{
 .t{
  opacity: 0;
 
- transition-duration: 2s;
+ transition-duration: 1s;
+ height: 100vh;
 }
 
 div.gallery {
@@ -184,4 +194,33 @@ div.desc {
   .responsive {
     width: 100%;
   }
+}
+
+.nagrad{
+  background-color:black;
+  height: 200px;
+  margin: 0%;
+  opacity: 0;
+ 
+
+  transition-duration: 1s;
+  
+ 
+}
+.nagrad 
+li{
+ 
+  padding: 5px;
+  
+  
+  
+  
+}
+.nagrad 
+li a{
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  
+  text-decoration: none;
 }
